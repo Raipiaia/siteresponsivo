@@ -1,0 +1,7 @@
+/* Footer */
+#footer {
+    background: var(--preto);
+    color: var(--cor-de-texto);
+    padding: 30px;
+    text-align: center;
+}

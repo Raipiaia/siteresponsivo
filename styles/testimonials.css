@@ -1,0 +1,33 @@
+/* Testimonials */
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: var(--cinza);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#testimonials {
+    width: 100%;
+    background: var(--preto);
+    color: var(--cor-de-texto);
+    padding: 50px;
+}
+
+#testimonials-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .testimonial-image {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}

@@ -1,0 +1,31 @@
+#navbar {
+    width: 100%;
+    background: var(--cor-de-fundo-de-texto);
+    color: var(--cor-de-texto);
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li {
+    padding: 10px;
+
+}
